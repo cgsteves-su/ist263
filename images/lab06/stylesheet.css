@@ -2,6 +2,8 @@ p, h1 {
     font-family: Serif, Georgia; 
 }
 h1, h2 {color: hotpink;}
-.evenrow {background-color: purple;}
+tr:nth-child(even) {
+    background-color: purple;
+}
 h1 {font-size: 300%;}
 h2 {font-size: 200%;}
