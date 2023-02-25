@@ -1,0 +1,7 @@
+p, h1 {
+    font-family: Serif, Georgia; 
+}
+h1, h2 {color: hotpink;}
+.evenrow {color: blueviolet}
+h1 {font-size: 300%;}
+h2 {font-size: 200%;}
