@@ -1,5 +1,5 @@
-p, h1 {
-    font-family: Serif, Georgia; 
+p, h1, h2 {
+    font-family: "Times New Roman", Times, serif; 
 }
 h1, h2 {color: hotpink;}
 .evenrow tr:nth-child(2n) {background-color: purple;}
