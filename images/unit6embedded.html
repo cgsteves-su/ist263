@@ -7,7 +7,7 @@
         <title>CSS Day 1</title>
         <style>
             /* p is our selector, color is our property and fuschia is our value */
-            h1 {
+            p, h1 {
                 color:fuchsia;
                 /* this is font size by % - 3 times default size*/
                 font-size: 300%;
@@ -15,10 +15,18 @@
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 font-weight: bolder;
             }
+            p a {color:goldenrod;}
+            #firstlink {color:hotpink;}
         </style>
     </head>
     <body>
         <h1>CSS How Do You Do It?</h1>
-        <a href="http://amazon.com">Amazon</a>
+        <a href="http://amazon.com" id="firstlink">Amazon</a>
+        <p>
+            <a href="http://www.google.com">Google</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque ratione quae quis saepe ad inventore, impedit facilis porro voluptas repellendus unde quia. Molestiae inventore quos repellendus eligendi deleniti illum!
+        </p>
+        <p class="redtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis necessitatibus blanditiis voluptatem non possimus ipsum, omnis, dolorem modi recusandae aut veniam, minus eaque pariatur. Doloribus harum laudantium corrupti explicabo.
+        </p>
     </body>
 </html>

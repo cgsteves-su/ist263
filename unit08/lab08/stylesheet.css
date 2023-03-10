@@ -1,0 +1,30 @@
+body {
+    background-color: #ffdacc;
+    color: #2e1612;
+}
+h1 {
+    color: #e85977;
+}
+.linkedin {
+    color: #a87770;
+}
+.email {
+    color: #a87770;
+}
+nav {
+    background-color: #3a2721;
+}
+nav a {
+    color:#a87770;
+}
+nav a:hover {
+    background-color:#e85977;
+}
+nav {
+    padding: 10px;
+}
+nav {
+    margin-bottom: 30px;
+}
+
+
