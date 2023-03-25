@@ -5,6 +5,8 @@ body {
 h1 {
     color: #e85977;
     text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .linkedin {
     color: #a87770;
@@ -28,13 +30,30 @@ nav {
     margin-bottom: 30px;
 }
 img {
-    width: 5%;
-    height: 5%;
+    width: 40%;
+    height: 50%;
 }
 .parent {
     display: flex;
     justify-content: center;
     padding: 10px;
+    border-radius: 10px;
+}
+.row2 {
+    background-color: #3a2721;
+    color: #ffffff;
+}
+.row2 {
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
