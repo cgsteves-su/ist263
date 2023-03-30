@@ -66,5 +66,6 @@ p {
     nav, nav a {
     max-width: 100%;
     display: block;
+    padding: 10px;
     }
 }
