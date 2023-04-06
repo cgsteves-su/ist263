@@ -20,7 +20,7 @@ nav {
     background-color: #3a2721;
 }
 nav a {
-    color:#a87770;
+    color:#ffffff;
 }
 nav a:hover {
     background-color:#e85977;
@@ -70,4 +70,16 @@ p {
     display: block;
     padding: 10px;
     }
+}
+.skip {
+    background-color: #3a2721;
+    padding: 5px;
+    border: 1px solid #0000;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px; 
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
 }
