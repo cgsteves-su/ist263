@@ -103,7 +103,7 @@ nav a {
     border-radius: 10px;
     flex-direction: column;
 }
-.row4, .row5, .row6 {
+.row4, .row5, .row6, .row7 {
     background-color: #ecf1eb;
     justify-content: center;
     padding: 20px;
@@ -126,6 +126,14 @@ nav a {
     margin-right: auto;
     width: 10%;
     justify-content: center; 
+}
+.img {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    flex-direction: row; 
+    align-items: center; 
+    margin: auto; 
 }
 
 
