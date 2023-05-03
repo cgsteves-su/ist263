@@ -3,6 +3,9 @@ body {
     color: #874a5b;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
 }
 h1 {
     color: #050606;
@@ -135,5 +138,6 @@ nav a {
     align-items: center; 
     margin: auto; 
 }
-
-
+footer {
+    margin-top: auto; 
+}
