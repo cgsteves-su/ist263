@@ -11,24 +11,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+   .skip {
+       background-color: #000000;
+       padding: 5px;
+       border: 1px solid #0000;
+       text-decoration: none;
+       position: absolute; /*positions element relative to top left of viewport*/
+       top: 10px; 
+       left: -999px; /*push it off the left side of the screen */
+   }
+   .skip:focus {
+       left: 10px; /*bring it back when they tab to it */
+   }
 </style>
  </head>
  <body>
  <nav>
+   <a href="#main" class="skip" tabindex="1">Skip to Content</a>
    <div class="dropdown">
       <button class="dropbtn"><img src="menubar.png" width="20" height="20" alt="menu"></button>
       <div class="dropdown-content">
-         <a href="welcome.html">Home</a>
-         <a href="class.html">Class</a>
-         <a href="gameday.html">Game Day</a>
-         <a href="datenight.html">Date Night</a>
+         <a href="welcome.html"tabindex="2">Home</a>
+         <a href="class.html" tabindex="3">Class</a>
+         <a href="gameday.html" tabindex="4">Game Day</a>
+         <a href="datenight.html" tabindex="5">Date Night</a>
       </div>
    </div>
  </nav>
  <h1>Welcome to Cara's Closet!</h1>
  <div class="row1">
  <div>
-   <div><p>Hi everyone, welcome to my closet! My whole life, I have found joy from picking out unique and special clothes for various occasions. 
+   <div><p id="main">Hi everyone, welcome to my closet! My whole life, I have found joy from picking out unique and special clothes for various occasions. 
    As a college student, it can be hard to create cute and unique outfits on a budget and with little time. Despite this, I still believe that <strong>clothing is one of the best ways to show the world who you are</strong>. Believe it or not, there are so many simple ways to add personalized touches to outfits for every occasion. 
    This page will help you discover those tricks!</p></div>
 </div>

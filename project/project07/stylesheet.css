@@ -187,3 +187,18 @@ footer {
 .img4:hover .opacity{
     opacity: 0.3;
 }
+footer {
+    color: #000000;
+}
+.skip {
+    background-color: #000000;
+    padding: 5px;
+    border: 1px solid #0000;
+    text-decoration: none;
+    position: absolute; /*positions element relative to top left of viewport*/
+    top: 10px; 
+    left: -999px; /*push it off the left side of the screen */
+}
+.skip:focus {
+    left: 10px; /*bring it back when they tab to it */
+}
