@@ -127,7 +127,6 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
     justify-content: center; 
 }
 .img {
@@ -165,12 +164,23 @@ footer {
     /* clear: both; */
     padding: 5px;
 }
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+.text1 {
+    position: relative;
+    top: -90%;
+    opacity: 0;
+    left: 38%;
+    /* transform: translate(-40%, -80%); */
+}
+.img1:hover .text1{
+    opacity: 1;
+}
+.text2 {
+    position: relative;
+    top: -90%;
+    opacity: 0;
+    left: 38%;
+    /* transform: translate(-40%, -80%); */
+}
+.img2:hover .text2{
+    opacity: 1;
 }
