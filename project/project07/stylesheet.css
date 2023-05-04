@@ -123,7 +123,7 @@ nav a {
     margin-right: 5px; 
     
 }
-.img4, .img5 {
+.img3, .img4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -184,3 +184,24 @@ footer {
 .img2:hover .text2{
     opacity: 1;
 }
+.text3 {
+    position: relative;
+    top: -90%;
+    opacity: 0;
+    left: 38%;
+    /* transform: translate(-40%, -80%); */
+}
+.img3:hover .text3{
+    opacity: 1;
+}
+.text4 {
+    position: relative;
+    top: -90%;
+    opacity: 0;
+    left: 38%;
+    /* transform: translate(-40%, -80%); */
+}
+.img4:hover .text4{
+    opacity: 1;
+}
+
