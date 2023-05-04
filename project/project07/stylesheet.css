@@ -164,44 +164,23 @@ footer {
     /* clear: both; */
     padding: 5px;
 }
-.text1 {
+.text {
     position: relative;
     top: -90%;
     opacity: 0;
     left: 38%;
     /* transform: translate(-40%, -80%); */
 }
-.img1:hover .text1{
+.img1:hover .text{
     opacity: 1;
 }
-.text2 {
-    position: relative;
-    top: -90%;
-    opacity: 0;
-    left: 38%;
-    /* transform: translate(-40%, -80%); */
-}
-.img2:hover .text2{
+.img2:hover .text{
     opacity: 1;
 }
-.text3 {
-    position: relative;
-    top: -90%;
-    opacity: 0;
-    left: 38%;
-    /* transform: translate(-40%, -80%); */
-}
-.img3:hover .text3{
+.img3:hover .text{
     opacity: 1;
 }
-.text4 {
-    position: relative;
-    top: -90%;
-    opacity: 0;
-    left: 38%;
-    /* transform: translate(-40%, -80%); */
-}
-.img4:hover .text4{
+.img4:hover .text{
     opacity: 1;
 }
 .img3:hover .opacity{
@@ -211,4 +190,3 @@ footer {
 .img4:hover .opacity{
     opacity: 0.3;
 }
-
