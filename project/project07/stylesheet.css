@@ -204,4 +204,11 @@ footer {
 .img4:hover .text4{
     opacity: 1;
 }
+.img3:hover .opacity{
+    opacity: 0.3;
+}
+
+.img4:hover .opacity{
+    opacity: 0.3;
+}
 
